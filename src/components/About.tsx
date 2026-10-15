@@ -9,7 +9,7 @@ export default function About() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden glass p-4">
               <img
-                src="/assets/perfume1.jpg"
+                `${import.meta.env.BASE_URL}assets/perfume1.jpg`
                 alt="Maison Lumière perfume bottles"
                 className="w-full h-full object-cover"
               />
