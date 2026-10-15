@@ -25,3 +25,5 @@ dist-ssr
 
 # U-Ai internal + leftover scaffolds from the trial
 .forge
+react-ts
+trial-site

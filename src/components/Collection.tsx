@@ -15,7 +15,7 @@ const perfumes = [
     notes: "Rose, Vanilla, Musk",
     price: 720,
     category: "floral",
-    image: "/assets/perfume2.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume2.jpg`,
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const perfumes = [
     notes: "Amber, Saffron, Cedar",
     price: 920,
     category: "oriental",
-    image: "/assets/perfume3.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume3.jpg`,
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const perfumes = [
     notes: "Saffron, Jasmine, Rosewood",
     price: 780,
     category: "floral",
-    image: "/assets/perfume4.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume4.jpg`,
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const perfumes = [
     notes: "Patchouli, Bergamot, Oud",
     price: 890,
     category: "woody",
-    image: "/assets/perfume5.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume5.jpg`,
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const perfumes = [
     notes: "Oud, Rose, Cardamom",
     price: 950,
     category: "oriental",
-    image: "/assets/perfume6.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume6.jpg`,
   },
 ];
 
@@ -101,7 +101,7 @@ export default function Collection() {
                 alt={perfume.name}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   onError={(e) => {
-    (e.target as HTMLImageElement).src = '/assets/hero.png';
+    (e.target as HTMLImageElement).src = `${import.meta.env.BASE_URL}assets/hero.png`;
   }}
               />
               

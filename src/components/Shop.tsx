@@ -174,7 +174,7 @@ export default function Shop({ cart, setCart, isCartOpen, setIsCartOpen }: ShopP
                         alt={perfume.name}
                         className="w-20 h-20 object-cover rounded-lg"
                         onError={(e) => {
-                          (e.target as HTMLImageElement).src = '/assets/hero.png';
+                          (e.target as HTMLImageElement).src = `${import.meta.env.BASE_URL}assets/hero.png`;
                         }}
                       />
                       <div className="flex-1">

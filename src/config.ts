@@ -23,7 +23,7 @@ export const perfumes = [
     notes: "Oud, Amber, Saffron",
     price: 850,
     category: "Woody",
-    image: "/assets/perfume1.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume1.jpg`,
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const perfumes = [
     notes: "Rose, Oud, Vanilla",
     price: 780,
     category: "Floral",
-    image: "/assets/perfume2.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume2.jpg`,
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const perfumes = [
     notes: "Amber, Sandalwood, Cardamom",
     price: 820,
     category: "Oriental",
-    image: "/assets/perfume3.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume3.jpg`,
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export const perfumes = [
     notes: "Jasmine, Oud, Bergamot",
     price: 795,
     category: "Floral",
-    image: "/assets/perfume4.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume4.jpg`,
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ export const perfumes = [
     notes: "Oud, Rose, Tobacco",
     price: 890,
     category: "Woody",
-    image: "/assets/perfume5.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume5.jpg`,
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ export const perfumes = [
     notes: "Amber, Vanilla, Cedar",
     price: 840,
     category: "Oriental",
-    image: "/assets/perfume6.jpg",
+    image: `${import.meta.env.BASE_URL}assets/perfume6.jpg`,
   },
 ];
 
